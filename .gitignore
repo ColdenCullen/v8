@@ -34,3 +34,5 @@ shell_g
 /xcodebuild/
 TAGS
 *.Makefile
+
+**/.svn/
