@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0EC24FF4-6E41-7BA2-FBA9-7B1148221EEC}</ProjectGuid>
+    <ProjectGuid>{ACFC86BA-9DB8-CCBD-A079-45908F4EA689}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>d8_js2c</RootNamespace>
   </PropertyGroup>

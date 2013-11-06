@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AC878DD5-0441-4AF6-8310-54E0DE197177}</ProjectGuid>
+    <ProjectGuid>{EF1CAF8B-B1CA-35E6-4674-E9BD25AEE748}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>resources</RootNamespace>
   </PropertyGroup>
@@ -113,16 +113,10 @@
     <None Include="log-eq-of-logging-and-traversal.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
-    <None Include="..\..\tools\logreader.js">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </None>
-    <None Include="..\..\tools\consarray.js">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </None>
     <None Include="..\..\tools\csvparser.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
-    <None Include="..\..\tools\splaytree.js">
+    <None Include="..\..\tools\consarray.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
     <None Include="..\..\tools\codemap.js">
@@ -131,7 +125,13 @@
     <None Include="..\..\tools\profile_view.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
+    <None Include="..\..\tools\logreader.js">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </None>
     <None Include="..\..\tools\profile.js">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\tools\splaytree.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
   </ItemGroup>

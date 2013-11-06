@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{02263C68-A6E1-5CEE-8FA3-2A7396766D57}</ProjectGuid>
+    <ProjectGuid>{55690CB3-797E-EA62-D2D6-0C4703FD089D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>cctest</RootNamespace>
   </PropertyGroup>
@@ -181,23 +181,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="resources.vcxproj">
-      <Project>{AC878DD5-0441-4AF6-8310-54E0DE197177}</Project>
+      <Project>{EF1CAF8B-B1CA-35E6-4674-E9BD25AEE748}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../../tools/gyp/v8.vcxproj">
-      <Project>{C784CAF2-E725-1513-ED43-D98222A46984}</Project>
+    <ProjectReference Include="..\..\tools\gyp\v8.vcxproj">
+      <Project>{73848F9A-5128-CE82-AE99-9EB394FAA496}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../../tools/gyp/v8_base.vcxproj">
-      <Project>{ED604D8D-2258-A09A-74A2-812D7B2DDB35}</Project>
+    <ProjectReference Include="..\..\tools\gyp\v8_base.vcxproj">
+      <Project>{0365B47C-0806-2D4C-C633-BFFE035A6182}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../../tools/gyp/v8_snapshot.vcxproj">
-      <Project>{7DDFF8DA-A989-62DF-DC18-90E38B1F5D4B}</Project>
+    <ProjectReference Include="..\..\tools\gyp\v8_snapshot.vcxproj">
+      <Project>{D7E18491-93AF-C9D1-0CF8-261904821D5A}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../../tools/gyp/js2c.vcxproj">
-      <Project>{D1FFDF92-B301-8617-6FE1-594139B51310}</Project>
+    <ProjectReference Include="..\..\tools\gyp\js2c.vcxproj">
+      <Project>{817879DF-8355-84D1-F5BD-6D42602E25D2}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

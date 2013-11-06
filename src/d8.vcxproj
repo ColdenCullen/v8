@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7789DAD3-79CC-D517-1FA9-AF38E23B1FE6}</ProjectGuid>
+    <ProjectGuid>{3892BB62-5718-34FB-A4FF-3816E19AB103}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>d8</RootNamespace>
   </PropertyGroup>
@@ -125,24 +125,24 @@
     <ClCompile Include="$(OutDir)obj\global_intermediate\d8-js.cc"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../tools/gyp/v8.vcxproj">
-      <Project>{C784CAF2-E725-1513-ED43-D98222A46984}</Project>
+    <ProjectReference Include="..\tools\gyp\v8.vcxproj">
+      <Project>{73848F9A-5128-CE82-AE99-9EB394FAA496}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="d8_js2c.vcxproj">
-      <Project>{0EC24FF4-6E41-7BA2-FBA9-7B1148221EEC}</Project>
+      <Project>{ACFC86BA-9DB8-CCBD-A079-45908F4EA689}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../tools/gyp/v8_base.vcxproj">
-      <Project>{ED604D8D-2258-A09A-74A2-812D7B2DDB35}</Project>
+    <ProjectReference Include="..\tools\gyp\v8_base.vcxproj">
+      <Project>{0365B47C-0806-2D4C-C633-BFFE035A6182}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../tools/gyp/v8_snapshot.vcxproj">
-      <Project>{7DDFF8DA-A989-62DF-DC18-90E38B1F5D4B}</Project>
+    <ProjectReference Include="..\tools\gyp\v8_snapshot.vcxproj">
+      <Project>{D7E18491-93AF-C9D1-0CF8-261904821D5A}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../tools/gyp/js2c.vcxproj">
-      <Project>{D1FFDF92-B301-8617-6FE1-594139B51310}</Project>
+    <ProjectReference Include="..\tools\gyp\js2c.vcxproj">
+      <Project>{817879DF-8355-84D1-F5BD-6D42602E25D2}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

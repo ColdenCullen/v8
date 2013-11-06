@@ -22,16 +22,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="v8.gyp"/>
-    <None Include="..\..\src\apinatives.js">
+    <None Include="..\..\src\date.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
     <None Include="..\..\src\runtime.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
-    <None Include="..\..\src\mirror-debugger.js">
+    <None Include="..\..\src\json.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
-    <None Include="..\..\src\debug-debugger.js">
+    <None Include="..\..\src\macros.py">
+      <Filter>..\..\src\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\src\math.js">
+      <Filter>..\..\src\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\src\regexp.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
     <None Include="..\..\src\array.js">
@@ -40,13 +46,16 @@
     <None Include="..\..\src\uri.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
+    <None Include="..\..\src\messages.js">
+      <Filter>..\..\src\_excluded_files</Filter>
+    </None>
     <None Include="..\..\src\string.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
-    <None Include="..\..\src\proxy.js">
+    <None Include="..\..\src\mirror-debugger.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
-    <None Include="..\..\src\date.js">
+    <None Include="..\..\src\proxy.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
     <None Include="..\..\src\liveedit-debugger.js">
@@ -55,22 +64,13 @@
     <None Include="..\..\src\collection.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
-    <None Include="..\..\src\json.js">
-      <Filter>..\..\src\_excluded_files</Filter>
-    </None>
-    <None Include="..\..\src\messages.js">
-      <Filter>..\..\src\_excluded_files</Filter>
-    </None>
-    <None Include="..\..\src\regexp.js">
+    <None Include="..\..\src\debug-debugger.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
     <None Include="..\..\src\v8natives.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
-    <None Include="..\..\src\macros.py">
-      <Filter>..\..\src\_excluded_files</Filter>
-    </None>
-    <None Include="..\..\src\math.js">
+    <None Include="..\..\src\apinatives.js">
       <Filter>..\..\src\_excluded_files</Filter>
     </None>
     <None Include="..\..\tools\js2c.py">

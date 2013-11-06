@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D1FFDF92-B301-8617-6FE1-594139B51310}</ProjectGuid>
+    <ProjectGuid>{817879DF-8355-84D1-F5BD-6D42602E25D2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>js2c</RootNamespace>
   </PropertyGroup>
@@ -110,16 +110,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="v8.gyp"/>
-    <None Include="..\..\src\apinatives.js">
+    <None Include="..\..\src\date.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
     <None Include="..\..\src\runtime.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
-    <None Include="..\..\src\mirror-debugger.js">
+    <None Include="..\..\src\json.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
-    <None Include="..\..\src\debug-debugger.js">
+    <None Include="..\..\src\macros.py">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\math.js">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\regexp.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
     <None Include="..\..\src\array.js">
@@ -128,13 +134,16 @@
     <None Include="..\..\src\uri.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
+    <None Include="..\..\src\messages.js">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </None>
     <None Include="..\..\src\string.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
-    <None Include="..\..\src\proxy.js">
+    <None Include="..\..\src\mirror-debugger.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
-    <None Include="..\..\src\date.js">
+    <None Include="..\..\src\proxy.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
     <None Include="..\..\src\liveedit-debugger.js">
@@ -143,22 +152,13 @@
     <None Include="..\..\src\collection.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
-    <None Include="..\..\src\json.js">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </None>
-    <None Include="..\..\src\messages.js">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </None>
-    <None Include="..\..\src\regexp.js">
+    <None Include="..\..\src\debug-debugger.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
     <None Include="..\..\src\v8natives.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
-    <None Include="..\..\src\macros.py">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </None>
-    <None Include="..\..\src\math.js">
+    <None Include="..\..\src\apinatives.js">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
   </ItemGroup>

@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C784CAF2-E725-1513-ED43-D98222A46984}</ProjectGuid>
+    <ProjectGuid>{73848F9A-5128-CE82-AE99-9EB394FAA496}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8</RootNamespace>
   </PropertyGroup>
@@ -113,11 +113,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="v8_base.vcxproj">
-      <Project>{ED604D8D-2258-A09A-74A2-812D7B2DDB35}</Project>
+      <Project>{0365B47C-0806-2D4C-C633-BFFE035A6182}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_snapshot.vcxproj">
-      <Project>{7DDFF8DA-A989-62DF-DC18-90E38B1F5D4B}</Project>
+      <Project>{D7E18491-93AF-C9D1-0CF8-261904821D5A}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

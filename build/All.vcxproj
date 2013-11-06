@@ -7,7 +7,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6B69EBD8-A638-0AE2-B69C-5BBDB74BBBD5}</ProjectGuid>
+    <ProjectGuid>{6A350E31-5922-5CC0-5EAE-CD3447D43FE5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>All</RootNamespace>
   </PropertyGroup>
@@ -64,28 +64,28 @@
     <None Include="all.gyp"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../preparser/preparser.vcxproj">
-      <Project>{46A79D93-D74C-37B9-D283-D403516FE74F}</Project>
+    <ProjectReference Include="..\preparser\preparser.vcxproj">
+      <Project>{5806BA24-437A-33E1-812D-C878C1F17597}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../samples/shell.vcxproj">
-      <Project>{3C7E7F77-2BC8-D404-ABC3-158989FB9CA7}</Project>
+    <ProjectReference Include="..\samples\shell.vcxproj">
+      <Project>{2B1FE626-F9B1-37A4-9025-55479B839394}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../samples/process.vcxproj">
-      <Project>{790C4855-5EAE-3DCF-496B-39380449D384}</Project>
+    <ProjectReference Include="..\samples\process.vcxproj">
+      <Project>{801318A9-10F1-7B4A-9C9E-3423E9E21894}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../src/d8.vcxproj">
-      <Project>{7789DAD3-79CC-D517-1FA9-AF38E23B1FE6}</Project>
+    <ProjectReference Include="..\src\d8.vcxproj">
+      <Project>{3892BB62-5718-34FB-A4FF-3816E19AB103}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../test/cctest/cctest.vcxproj">
-      <Project>{02263C68-A6E1-5CEE-8FA3-2A7396766D57}</Project>
+    <ProjectReference Include="..\test\cctest\cctest.vcxproj">
+      <Project>{55690CB3-797E-EA62-D2D6-0C4703FD089D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="../test/cctest/resources.vcxproj">
-      <Project>{AC878DD5-0441-4AF6-8310-54E0DE197177}</Project>
+    <ProjectReference Include="..\test\cctest\resources.vcxproj">
+      <Project>{EF1CAF8B-B1CA-35E6-4674-E9BD25AEE748}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

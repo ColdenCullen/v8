@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{46A79D93-D74C-37B9-D283-D403516FE74F}</ProjectGuid>
+    <ProjectGuid>{5806BA24-437A-33E1-812D-C878C1F17597}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>preparser</RootNamespace>
   </PropertyGroup>
@@ -118,8 +118,8 @@
     <ClCompile Include="preparser-process.cc"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../tools/gyp/preparser_lib.vcxproj">
-      <Project>{548FBAE4-625E-F506-F74C-164569028F1A}</Project>
+    <ProjectReference Include="..\tools\gyp\preparser_lib.vcxproj">
+      <Project>{84E94FC3-5AE2-45D1-29F8-4FF56703C9A8}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

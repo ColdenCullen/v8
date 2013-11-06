@@ -22,16 +22,10 @@
     <None Include="log-eq-of-logging-and-traversal.js">
       <Filter>_excluded_files</Filter>
     </None>
-    <None Include="..\..\tools\logreader.js">
-      <Filter>..\..\tools\_excluded_files</Filter>
-    </None>
-    <None Include="..\..\tools\consarray.js">
-      <Filter>..\..\tools\_excluded_files</Filter>
-    </None>
     <None Include="..\..\tools\csvparser.js">
       <Filter>..\..\tools\_excluded_files</Filter>
     </None>
-    <None Include="..\..\tools\splaytree.js">
+    <None Include="..\..\tools\consarray.js">
       <Filter>..\..\tools\_excluded_files</Filter>
     </None>
     <None Include="..\..\tools\codemap.js">
@@ -43,7 +37,13 @@
     <None Include="..\..\tools\profile_view.js">
       <Filter>..\..\tools\_excluded_files</Filter>
     </None>
+    <None Include="..\..\tools\logreader.js">
+      <Filter>..\..\tools\_excluded_files</Filter>
+    </None>
     <None Include="..\..\tools\profile.js">
+      <Filter>..\..\tools\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\tools\splaytree.js">
       <Filter>..\..\tools\_excluded_files</Filter>
     </None>
   </ItemGroup>

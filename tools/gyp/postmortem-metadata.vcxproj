@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0C5999C6-052A-58E4-83F5-4D82BF69A38C}</ProjectGuid>
+    <ProjectGuid>{2D5C6D36-E376-3F34-9011-68E842B26CAE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>postmortem-metadata</RootNamespace>
   </PropertyGroup>

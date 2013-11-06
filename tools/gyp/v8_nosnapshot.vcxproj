@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{747361A1-61E5-B60E-8B7A-DDAED9184B96}</ProjectGuid>
+    <ProjectGuid>{4D9A97F4-A135-9173-3480-80F840D9050D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_nosnapshot</RootNamespace>
   </PropertyGroup>
@@ -125,7 +125,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="js2c.vcxproj">
-      <Project>{D1FFDF92-B301-8617-6FE1-594139B51310}</Project>
+      <Project>{817879DF-8355-84D1-F5BD-6D42602E25D2}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

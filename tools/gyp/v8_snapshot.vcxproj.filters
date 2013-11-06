@@ -19,10 +19,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="v8.gyp"/>
-    <ClCompile Include="$(OutDir)obj\global_intermediate\experimental-libraries.cc">
+    <ClCompile Include="$(OutDir)obj\global_intermediate\libraries.cc">
       <Filter>$(OutDir)obj\global_intermediate</Filter>
     </ClCompile>
-    <ClCompile Include="$(OutDir)obj\global_intermediate\libraries.cc">
+    <ClCompile Include="$(OutDir)obj\global_intermediate\experimental-libraries.cc">
       <Filter>$(OutDir)obj\global_intermediate</Filter>
     </ClCompile>
     <ClCompile Include="$(IntDir)\snapshot.cc">
