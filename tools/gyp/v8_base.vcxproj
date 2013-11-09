@@ -62,7 +62,6 @@
     </ClCompile>
     <Lib>
       <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
-      <OutputFile>$(OutDir)lib\$(ProjectName)$(TargetExt)</OutputFile>
     </Lib>
     <Link>
       <AdditionalDependencies>ws2_32.lib</AdditionalDependencies>
